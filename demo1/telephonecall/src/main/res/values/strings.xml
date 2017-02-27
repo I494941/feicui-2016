@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TelephoneCall</string>
+    <string name="app_name_chinese">打个电话</string>
+    <string name="call_phone">打个电话试试</string>
+</resources>

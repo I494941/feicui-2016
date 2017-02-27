@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/et1"
+        android:layout_width="50dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et1"
+        android:gravity="right"
+        android:text="姓名：" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et1"
+        android:layout_toRightOf="@+id/tx1"
+        android:background="#00ff00" />
+
+    <TextView
+        android:id="@+id/tx2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et3"
+        android:gravity="right"
+        android:text="性别：" />
+
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et3"
+        android:layout_toRightOf="@+id/tx2"
+        android:text="女" />
+
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et3"
+        android:layout_toRightOf="@+id/rb1"
+        android:text="男" />
+
+    <TextView
+        android:id="@+id/et4"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rb2" />
+
+    <TextView
+        android:id="@+id/tx3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et4"
+        android:gravity="right"
+        android:text="出生日期：" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et4"
+        android:layout_toRightOf="@+id/tx3"
+        android:background="#00ff00" />
+
+    <TextView
+        android:id="@+id/et3"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tx1" />
+
+    <TextView
+        android:id="@+id/et6"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et5" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et6"
+        android:gravity="right"
+        android:text="密码：" />
+
+    <EditText
+        android:id="@+id/et7"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et6"
+        android:layout_toRightOf="@id/tv1"
+        android:background="#00ff00" />
+
+    <TextView
+        android:id="@+id/et8"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et7" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et8"
+        android:gravity="right"
+        android:text="密码：" />
+
+    <EditText
+        android:id="@+id/et9"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et8"
+        android:layout_toRightOf="@id/tv2"
+        android:background="#00ff00" />
+
+    <TextView
+        android:id="@+id/et10"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/et11"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et10" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et10"
+        android:layout_toRightOf="@+id/et11"
+        android:text="保存" />
+
+    <TextView
+        android:id="@+id/et12"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et10"
+        android:layout_toRightOf="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et10"
+        android:layout_toRightOf="@+id/et12"
+        android:text="取消" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="app_name_chinese">动画练习</string>
+    <string name="alpha">透明渐变</string>
+    <string name="rotate">旋转</string>
+    <string name="scale">缩放</string>
+    <string name="translate">位移</string>
+    <string name="anmial_set">动画组合</string>
+    <string name="jump">跳转</string>
+</resources>

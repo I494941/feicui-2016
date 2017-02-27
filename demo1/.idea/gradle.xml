@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\develop\Android\AndroidStudio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/calculator_java" />
+            <option value="$PROJECT_DIR$/calculator_linear" />
+            <option value="$PROJECT_DIR$/calculator_rel" />
+            <option value="$PROJECT_DIR$/checkboxdemo" />
+            <option value="$PROJECT_DIR$/checkboxdemo2" />
+            <option value="$PROJECT_DIR$/checkboxdemo3" />
+            <option value="$PROJECT_DIR$/checkboxdemo4" />
+            <option value="$PROJECT_DIR$/contacts" />
+            <option value="$PROJECT_DIR$/daily" />
+            <option value="$PROJECT_DIR$/daily2" />
+            <option value="$PROJECT_DIR$/daily_linear" />
+            <option value="$PROJECT_DIR$/daily_rel" />
+            <option value="$PROJECT_DIR$/dailysystem" />
+            <option value="$PROJECT_DIR$/handlerdemo" />
+            <option value="$PROJECT_DIR$/login_linear" />
+            <option value="$PROJECT_DIR$/login_rel" />
+            <option value="$PROJECT_DIR$/logined" />
+            <option value="$PROJECT_DIR$/onclick" />
+            <option value="$PROJECT_DIR$/onclick124" />
+            <option value="$PROJECT_DIR$/onclick3" />
+            <option value="$PROJECT_DIR$/register_linear" />
+            <option value="$PROJECT_DIR$/register_rel" />
+            <option value="$PROJECT_DIR$/sms" />
+            <option value="$PROJECT_DIR$/telephonecall" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/test2" />
+            <option value="$PROJECT_DIR$/test3" />
+            <option value="$PROJECT_DIR$/testhomeentry" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

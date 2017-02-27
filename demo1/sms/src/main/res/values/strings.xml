@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="app_name_chinese">发送短信</string>
+    <string name="moblie">请输入手机号码</string>
+    <string name="content">请输入短信内容</string>
+    <string name="button">发送信息</string>
+    <string name="info">发送成功</string>
+</resources>

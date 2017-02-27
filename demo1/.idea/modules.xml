@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/animationdemo/animationdemo.iml" filepath="$PROJECT_DIR$/animationdemo/animationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator_java/calculator_java.iml" filepath="$PROJECT_DIR$/calculator_java/calculator_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator_linear/calculator_linear.iml" filepath="$PROJECT_DIR$/calculator_linear/calculator_linear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator_rel/calculator_rel.iml" filepath="$PROJECT_DIR$/calculator_rel/calculator_rel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo/checkboxdemo.iml" filepath="$PROJECT_DIR$/checkboxdemo/checkboxdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo2/checkboxdemo2.iml" filepath="$PROJECT_DIR$/checkboxdemo2/checkboxdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo3/checkboxdemo3.iml" filepath="$PROJECT_DIR$/checkboxdemo3/checkboxdemo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo4/checkboxdemo4.iml" filepath="$PROJECT_DIR$/checkboxdemo4/checkboxdemo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contacts/contacts.iml" filepath="$PROJECT_DIR$/contacts/contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daily/daily.iml" filepath="$PROJECT_DIR$/daily/daily.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daily2/daily2.iml" filepath="$PROJECT_DIR$/daily2/daily2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daily_linear/daily_linear.iml" filepath="$PROJECT_DIR$/daily_linear/daily_linear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daily_rel/daily_rel.iml" filepath="$PROJECT_DIR$/daily_rel/daily_rel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dailysystem/dailysystem.iml" filepath="$PROJECT_DIR$/dailysystem/dailysystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo1.iml" filepath="$PROJECT_DIR$/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handlerdemo/handlerdemo.iml" filepath="$PROJECT_DIR$/handlerdemo/handlerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login_linear/login_linear.iml" filepath="$PROJECT_DIR$/login_linear/login_linear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login_rel/login_rel.iml" filepath="$PROJECT_DIR$/login_rel/login_rel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logined/logined.iml" filepath="$PROJECT_DIR$/logined/logined.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onclick/onclick.iml" filepath="$PROJECT_DIR$/onclick/onclick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onclick124/onclick124.iml" filepath="$PROJECT_DIR$/onclick124/onclick124.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onclick3/onclick3.iml" filepath="$PROJECT_DIR$/onclick3/onclick3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register_linear/register_linear.iml" filepath="$PROJECT_DIR$/register_linear/register_linear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register_rel/register_rel.iml" filepath="$PROJECT_DIR$/register_rel/register_rel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sms/sms.iml" filepath="$PROJECT_DIR$/sms/sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/telephonecall/telephonecall.iml" filepath="$PROJECT_DIR$/telephonecall/telephonecall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test2/test2.iml" filepath="$PROJECT_DIR$/test2/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test3/test3.iml" filepath="$PROJECT_DIR$/test3/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testhomeentry/testhomeentry.iml" filepath="$PROJECT_DIR$/testhomeentry/testhomeentry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
+    </modules>
+  </component>
+</project>

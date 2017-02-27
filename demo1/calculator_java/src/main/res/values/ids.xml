@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="et1" type="id"/>
+    <item name="bt7" type="id"/>
+    <item name="bt8" type="id"/>
+    <item name="bt9" type="id"/>
+    <item name="btDiv" type="id"/>
+    <item name="bt4" type="id"/>
+    <item name="bt5" type="id"/>
+    <item name="bt6" type="id"/>
+    <item name="btMul" type="id"/>
+    <item name="bt1" type="id"/>
+    <item name="bt2" type="id"/>
+    <item name="bt3" type="id"/>
+    <item name="btMin" type="id"/>
+    <item name="bt0" type="id"/>
+    <item name="btEqu" type="id"/>
+    <item name="btPlus" type="id"/>
+</resources>
