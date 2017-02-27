@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slidingmenu_left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_slidingmenu_left"
+    android:orientation="vertical">
+
+    <!-- “新闻”布局样式 -->
+
+    <RelativeLayout
+        android:id="@+id/rl_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_news" />
+
+        <TextView
+            android:id="@+id/tv_news_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="新闻"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_news_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_news_1"
+            android:layout_toRightOf="@+id/imageView1"
+            android:paddingTop="10dp"
+            android:text="NEWS"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <!--“收藏”布局样式-->
+    <RelativeLayout
+        android:id="@+id/rl_reading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_read" />
+
+        <TextView
+            android:id="@+id/tv_reading_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView2"
+            android:text="收藏"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_reading_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_reading_1"
+            android:layout_toRightOf="@+id/imageView2"
+            android:paddingTop="10dp"
+            android:text="FAVOURITE"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <!--“本地”布局样式-->
+
+    <RelativeLayout
+        android:id="@+id/rl_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biz_navigation_tab_local_news" />
+
+    <TextView
+        android:id="@+id/tv_local_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView3"
+        android:text="本地"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_local_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_local_1"
+        android:layout_toRightOf="@+id/imageView3"
+        android:paddingTop="10dp"
+        android:text="LOCAL"
+        android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <!--“跟帖”布局样式-->
+
+
+    <RelativeLayout
+        android:id="@+id/rl_commnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/biz_navigation_tab_ties" />
+
+    <TextView
+        android:id="@+id/tv_commnet_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imageView4"
+        android:text="跟帖"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_commnet_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_commnet_1"
+        android:layout_toRightOf="@+id/imageView4"
+        android:paddingTop="10dp"
+        android:text="COMMENT"
+        android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <!--“图片”布局样式-->
+
+    <RelativeLayout
+        android:id="@+id/rl_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/biz_navigation_tab_pics" />
+
+        <TextView
+            android:id="@+id/tv_photo_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView5"
+            android:text="图片"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_photo_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_photo_1"
+            android:layout_toRightOf="@+id/imageView5"
+            android:paddingTop="10dp"
+            android:text="PHOTO"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</LinearLayout>

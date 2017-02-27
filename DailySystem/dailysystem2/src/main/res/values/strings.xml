@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">手机版日报程序</string>
+
+    <string name="tab_menu_alert">日报清单</string>
+    <string name="tab_menu_profile">新增日报</string>
+    <string name="tab_menu_pay">关于我们</string>
+    <string name="tab_menu_setting">设置</string>
+</resources>

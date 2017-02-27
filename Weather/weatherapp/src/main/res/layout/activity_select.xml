@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入城市:" />
+
+        <EditText
+            android:id="@+id/et_select_city"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="济南" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="热门城市" />
+
+        <TextView
+            android:id="@+id/tv_bj"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="北京" />
+
+        <TextView
+            android:id="@+id/tv_sh"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="上海" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="按省份" />
+
+        <TextView
+            android:id="@+id/tv_sd"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="山东" />
+
+        <TextView
+            android:id="@+id/tv_hn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="河南" />
+    </LinearLayout>
+</LinearLayout>

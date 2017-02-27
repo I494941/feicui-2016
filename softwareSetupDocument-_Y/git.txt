@@ -1,0 +1,59 @@
+Administrator@YH-4I02SGST089S MINGW64 /d/22/test2 (master)
+$ git add .
+
+Administrator@YH-4I02SGST089S MINGW64 /d/22/test2 (master)
+$ git commit -m "afasdf"
+[master 2a8b81c] afasdf
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 gtihub_signup.doc
+
+Administrator@YH-4I02SGST089S MINGW64 /d/22/test2 (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.46 MiB | 221.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/I494941/test2.git
+   91a97f9..2a8b81c  master -> master
+
+Administrator@YH-4I02SGST089S MINGW64 /d/22/test2 (master)
+$ git add .
+
+Administrator@YH-4I02SGST089S MINGW64 /d/22/test2 (master)
+$ git commit -m "afasdf"
+[master 3424960] afasdf
+ 19 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 android_svn.doc
+ create mode 100644 androidstudio.doc
+ create mode 100644 as_svn.docx
+ create mode 100644 dreamweaver8.docx
+ create mode 100644 eclipse.doc
+ create mode 100644 "eclipse_svn\346\217\222\344\273\266\345\256\211\350\243\205.doc"
+ create mode 100644 editplus.doc
+ create mode 100644 genymotion.doc
+ create mode 100644 "git bash\347\232\204\344\275\277\347\224\250.doc"
+ create mode 100644 git.doc
+ create mode 100644 intelj.doc
+ create mode 100644 jdk.doc
+ create mode 100644 "jdk\345\256\211\350\243\205\346\226\207\346\241\243-\347\216\213\346\242\223.docx"
+ create mode 100644 "linux\345\256\211\350\243\205svn\346\226\271\346\263\225\344\270\200.docx"
+ create mode 100644 "linux\345\256\211\350\243\205svn\346\226\271\346\263\225\344\272\214.docx"
+ create mode 100644 mysql_install.docx
+ create mode 100644 "sdk\347\232\204\345\256\211\350\243\205.doc"
+ create mode 100644 svn.doc
+ create mode 100644 "\346\225\260\346\215\256\345\272\223\345\256\242\346\210\267\347\253\257_navicat.doc"
+
+Administrator@YH-4I02SGST089S MINGW64 /d/22/test2 (master)
+$ git push origin master
+Counting objects: 21, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (21/21), 11.33 MiB | 245.00 KiB/s, done.
+Total 21 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/I494941/test2.git
+   2a8b81c..3424960  master -> master
+
+Administrator@YH-4I02SGST089S MINGW64 /d/22/test2 (master)
+$

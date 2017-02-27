@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daily.iml" filepath="$PROJECT_DIR$/.idea/modules/daily.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daily_main.iml" filepath="$PROJECT_DIR$/.idea/modules/daily_main.iml" group="daily" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/daily_test.iml" filepath="$PROJECT_DIR$/.idea/modules/daily_test.iml" group="daily" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo0912.iml" filepath="$PROJECT_DIR$/.idea/modules/demo0912.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo0912_main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo0912_main.iml" group="demo0912" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo0912_test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo0912_test.iml" group="demo0912" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/text9.8.iml" filepath="$PROJECT_DIR$/.idea/modules/text9.8.iml" />
+    </modules>
+  </component>
+</project>

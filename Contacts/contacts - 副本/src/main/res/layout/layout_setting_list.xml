@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 开机启动 -->
+    <RelativeLayout
+        android:id="@+id/rl_setting_autostart"
+        style="@style/setting_item">
+
+        <TextView
+            style="@style/setting_item_head"
+            android:text="@string/setting_autostart" />
+
+        <ToggleButton
+            android:id="@+id/tb_toggle_reboot"
+            android:layout_alignParentRight="true"
+            style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+    <!-- 通知图标 -->
+    <RelativeLayout
+        android:id="@+id/rl_notification_autostart"
+        style="@style/setting_item">
+
+        <TextView
+            style="@style/setting_item_head"
+            android:text="@string/setting_notifmsg" />
+
+        <ToggleButton
+            android:id="@+id/tb_toggle_notification"
+            android:layout_alignParentRight="true"
+            style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+    <!-- 消息推送 -->
+    <RelativeLayout
+        android:id="@+id/rl_pushmsg_autostart"
+        style="@style/setting_item">
+
+    <TextView
+        style="@style/setting_item_head"
+        android:text="@string/setting_pushmsg" />
+
+    <ToggleButton
+        android:id="@+id/tb_toggle_pushmsg"
+        android:layout_alignParentRight="true"
+        style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+    <!-- 帮助说明 -->
+    <RelativeLayout
+        android:id="@+id/rl_help_autostart"
+        style="@style/setting_item">
+
+        <TextView
+            style="@style/setting_item_head"
+            android:text="@string/setting_help" />
+
+        <ToggleButton
+            android:id="@+id/tb_toggle_help"
+            android:layout_alignParentRight="true"
+            style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+    <!-- 意见反馈 -->
+    <RelativeLayout
+        android:id="@+id/rl_study_autostart"
+        style="@style/setting_item">
+
+        <TextView
+            style="@style/setting_item_head"
+            android:text="@string/setting_study" />
+
+        <ToggleButton
+            android:id="@+id/tb_toggle_study"
+            android:layout_alignParentRight="true"
+            style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+    <!-- 好友分享-->
+    <RelativeLayout
+        android:id="@+id/rl_share_autostart"
+        style="@style/setting_item">
+
+        <TextView
+            style="@style/setting_item_head"
+            android:text="@string/setting_share" />
+
+        <ToggleButton
+            android:id="@+id/tb_toggle_share"
+            android:layout_alignParentRight="true"
+            style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+    <!-- 版本更新-->
+    <RelativeLayout
+        android:id="@+id/rl_update_autostart"
+        style="@style/setting_item">
+
+        <TextView
+            style="@style/setting_item_head"
+            android:text="@string/setting_update" />
+
+        <ToggleButton
+            android:id="@+id/tb_toggle_update"
+            android:layout_alignParentRight="true"
+            style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+    <!-- 关于我们 -->
+    <RelativeLayout
+        android:id="@+id/rl_about_autostart"
+        style="@style/setting_item">
+
+        <TextView
+            style="@style/setting_item_head"
+            android:text="@string/setting_about" />
+
+        <ToggleButton
+            android:id="@+id/tb_toggle_about"
+            android:layout_alignParentRight="true"
+            style="@style/setting_item_head_icon_toggle" />
+    </RelativeLayout>
+</LinearLayout>

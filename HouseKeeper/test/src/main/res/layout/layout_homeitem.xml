@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- 第一排 用TextView显示三个文本框-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/ll_rocket"
+            android:onClick="hitHomeitem"
+            style="@style/homeitem"
+            android:drawableTop="@drawable/icon_rocket"
+            android:text="@string/rocket" />
+
+        <TextView
+            android:id="@+id/ll_softmgr"
+            android:onClick="hitHomeitem"
+            style="@style/homeitem"
+            android:drawableTop="@drawable/icon_softmgr"
+            android:text="@string/softmgr" />
+
+
+        <TextView
+            android:id="@+id/ll_phonemgr"
+            android:onClick="hitHomeitem"
+            style="@style/homeitem"
+            android:drawableTop="@drawable/icon_phonemgr"
+            android:text="@string/phonemgr" />
+
+
+
+
+    </LinearLayout> <!-- 第二排 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/ll_telmgr"
+            android:onClick="hitHomeitem"
+            style="@style/homeitem"
+            android:drawableTop="@drawable/icon_telmgr"
+            android:text="@string/telmgr" />
+
+        <TextView
+            android:id="@+id/ll_filemgr"
+            android:onClick="hitHomeitem"
+            style="@style/homeitem"
+            android:drawableTop="@drawable/icon_filemgr"
+            android:text="@string/filemgr" />
+
+
+        <TextView
+            android:id="@+id/ll_sdclean"
+            android:onClick="hitHomeitem"
+            style="@style/homeitem"
+            android:drawableTop="@drawable/icon_sdclean"
+            android:text="@string/sdclean" />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

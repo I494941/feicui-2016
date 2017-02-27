@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <!-- 全部 :由左侧（全部文本+大小文本 ）和右侧(loading 和右箭头图像)组成
+-->
+    <RelativeLayout
+        android:id="@+id/file_classlist_all"
+        style="@style/app_listitem">
+        <!-- 左侧文本 -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/app_listitem_text"
+                android:text="hehe" />//@string/filetype_all
+
+            <TextView
+                android:id="@+id/file_all_size"
+                style="@style/app_listitem_text_small"
+                android:text="(计算中...)" />
+        </LinearLayout>
+        <!-- 右侧loading(当加载中时显示loading) -->
+        <ProgressBar
+            android:id="@+id/file_all_loading"
+            style="@style/app_listitem_righticon_loading"
+            android:visibility="visible" />
+        <!-- 右侧箭头图标(当加载结束后将显示箭头图标) -->
+        <ImageView
+            android:id="@+id/file_all_righticon"
+            style="@style/app_listitem_righticon"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <!-- 透明水平线 -->
+    <View
+        android:id="@+id/view"
+        style="@style/line_h_transparent" />
+    <!-- 同上 -->
+    <!-- 文档 -->
+    <!-- 视频 -->
+    <!-- 音频 -->
+    <!-- 图像 -->
+    <!-- 压缩包 -->
+    <!-- 程序包 -->
+</LinearLayout>

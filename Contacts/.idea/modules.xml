@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Contacts.iml" filepath="$PROJECT_DIR$/Contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/battery/battery.iml" filepath="$PROJECT_DIR$/battery/battery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batterystatus/batterystatus.iml" filepath="$PROJECT_DIR$/batterystatus/batterystatus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceiverdemo/broadcastreceiverdemo.iml" filepath="$PROJECT_DIR$/broadcastreceiverdemo/broadcastreceiverdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo2/checkboxdemo2.iml" filepath="$PROJECT_DIR$/checkboxdemo2/checkboxdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo5/checkboxdemo5.iml" filepath="$PROJECT_DIR$/checkboxdemo5/checkboxdemo5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contacts/contacts.iml" filepath="$PROJECT_DIR$/contacts/contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/express/express.iml" filepath="$PROJECT_DIR$/express/express.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handlerdemo/handlerdemo.iml" filepath="$PROJECT_DIR$/handlerdemo/handlerdemo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.wjf.android06.feicuiedu.com.weather.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp">
+
+            <FrameLayout
+                android:id="@+id/fl"
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom|center_horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_p1"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/a4" />
+
+                    <ImageView
+                        android:id="@+id/iv_p2"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/a4" />
+
+                    <ImageView
+                        android:id="@+id/iv_p3"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/a4" />
+
+                    <ImageView
+                        android:id="@+id/iv_p4"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/a4" />
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:layout_below="@+id/fl">
+
+                <android.wjf.android06.feicuiedu.com.weather.LineView02
+                    android:id="@+id/lineview"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="当前城市" />
+
+                <TextView
+                    android:id="@+id/tv_currentCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="城市" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/ll_city">
+
+            </ListView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

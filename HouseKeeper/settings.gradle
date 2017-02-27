@@ -1,0 +1,1 @@
+include ':app', ':housekeeper', ':test', ':jiugongge', ':horizontallistview'

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_item_icon"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:src="@drawable/defaultpic" />
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_toRightOf="@+id/iv_item_icon"
+        android:gravity="center_vertical"
+        android:text="大标题"
+        android:singleLine="true"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_item_summary"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/tv_item_title"
+        android:layout_toRightOf="@+id/iv_item_icon"
+        android:gravity="center_vertical"
+        android:text="小标题"
+        android:singleLine="true"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_item_stamp"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/tv_item_summary"
+        android:layout_toRightOf="@+id/iv_item_icon"
+        android:gravity="right"
+        android:text="时间"
+        android:textSize="10sp"/>
+
+</RelativeLayout>

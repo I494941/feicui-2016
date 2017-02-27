@@ -1,0 +1,1 @@
+include ':app', ':contacts', ':contacts', ':checkboxdemo5', ':checkboxdemo2', ':broadcastreceiverdemo', ':battery', ':batterystatus', ':handlerdemo', ':express'

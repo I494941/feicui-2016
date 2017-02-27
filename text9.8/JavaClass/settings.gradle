@@ -1,0 +1,3 @@
+rootProject.name = 'JavaClass'
+include 'NetDemo'
+

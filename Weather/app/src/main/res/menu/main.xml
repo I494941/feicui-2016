@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.MainActivity">
+
+    <item
+        android:id="@+id/action_select"
+        android:icon="@drawable/icon_filemgr"
+        android:showAsAction="always"
+        android:title="选择城市" />
+    <item
+        android:id="@+id/action_index"
+        android:icon="@drawable/icon_rocket"
+        android:showAsAction="always"
+        android:title="当日指数" />
+
+</menu>

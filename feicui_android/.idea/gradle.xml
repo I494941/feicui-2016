@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\develop\Android\AndroidStudio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/animationdemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/appinfo" />
+            <option value="$PROJECT_DIR$/broadcastreceiverdemo" />
+            <option value="$PROJECT_DIR$/checkboxdemo" />
+            <option value="$PROJECT_DIR$/circledemo" />
+            <option value="$PROJECT_DIR$/circledemo1" />
+            <option value="$PROJECT_DIR$/circledemo2" />
+            <option value="$PROJECT_DIR$/dialogmodule" />
+            <option value="$PROJECT_DIR$/drawerlayoutdemo" />
+            <option value="$PROJECT_DIR$/expressage" />
+            <option value="$PROJECT_DIR$/fragmengdemo1" />
+            <option value="$PROJECT_DIR$/fragmentdemo" />
+            <option value="$PROJECT_DIR$/fragmentsimpledemo" />
+            <option value="$PROJECT_DIR$/gridviewlayout" />
+            <option value="$PROJECT_DIR$/handlerdemo" />
+            <option value="$PROJECT_DIR$/intentdemo" />
+            <option value="$PROJECT_DIR$/listviewdemo" />
+            <option value="$PROJECT_DIR$/listviewdemo1" />
+            <option value="$PROJECT_DIR$/logindemo" />
+            <option value="$PROJECT_DIR$/lrucachedemo" />
+            <option value="$PROJECT_DIR$/minidaily" />
+            <option value="$PROJECT_DIR$/notificationdemo" />
+            <option value="$PROJECT_DIR$/progressbardemo" />
+            <option value="$PROJECT_DIR$/slidingmenudemo" />
+            <option value="$PROJECT_DIR$/sqlitedemo" />
+            <option value="$PROJECT_DIR$/storagedemo" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
+            <option value="$PROJECT_DIR$/weatherapp" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
